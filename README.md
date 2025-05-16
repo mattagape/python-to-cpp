@@ -5,3 +5,16 @@ This project was suggested for the "hack day" at [CW25](https://www.software.ac.
 
 [Original proposal](./docs/original.pdf)
 
+We want to be able to do this:
+```
+python converter.py -i file.py -o file.cpp --filetype script|lib
+```
+The generated C++ file would then need to be compiled before being run.
+
+In theory, the ```converter.py``` tool could generate a C++ file which could do the same as itself, i.e.
+
+```
+python converter.py -i converter.py -o converter.cpp --filetype script
+```
+i.e. `converter.cpp` could be compiled into a `converter` executable which would do the same as `converter.py`. It will have to be seen whether this is possible or not.
+
