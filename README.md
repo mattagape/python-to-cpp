@@ -5,6 +5,13 @@ This project was suggested for the "hack day" at [CW25](https://www.software.ac.
 
 [Original proposal](./docs/original.pdf)
 
+## Motivation 
+C++ programs run faster than Python, so are likely to use less energy, e.g., on an HPC system. There is also some evidence that C++ programs use less power (see original proposal). So, it is desirable to use C++.
+
+But much existing code is written in Python. And, many programmers don't know C++.
+
+The idea of this project is to develop a tool which can convert Python source code to C++ source code, which can then be compiled and run.
+
 ## Aim
 We want to be able to do this:
 ```
