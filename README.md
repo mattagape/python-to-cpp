@@ -19,12 +19,12 @@ python converter.py -i file.py -o file.cpp --filetype script|lib
 ```
 The generated C++ file would then need to be compiled before being run.
 
-In theory, the ```converter.py``` tool could generate a C++ file which could do the same as itself, i.e.
+A side issue: in theory, the ```converter.py``` tool could generate a C++ file which could do the same as itself, i.e.
 
 ```
 python converter.py -i converter.py -o converter.cpp --filetype script
 ```
-i.e. `converter.cpp` could be compiled into a `converter` executable which would do the same as `converter.py`. It will have to be seen whether this is possible or not.
+i.e. `converter.cpp` could be compiled into a `converter` executable which would do the same as `converter.py`. It will have to be seen whether this is possible or not. This is mentioned purely as an interesting possibility; it is not the main point of this project.
 
 ## Previous and related work
 
