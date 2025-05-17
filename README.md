@@ -10,7 +10,7 @@ C++ programs run faster than Python, so are likely to use less energy, e.g., on 
 
 But much existing code is written in Python. And, many programmers don't know C++.
 
-The idea of this project is to develop a tool which can convert Python source code to C++ source code, which can then be compiled and run.
+The idea of this project is to develop a tool which can convert Python source code to C++ source code, which can then be compiled and run. In theory, this would allow programmers to run C++ code even if they don't know C++. And programmers, whether they know C++ or not, could "convert" an existing Python code base into C++.
 
 ## Aim
 We want to be able to do this:
