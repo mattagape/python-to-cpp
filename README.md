@@ -28,6 +28,9 @@ i.e. `converter.cpp` could be compiled into a `converter` executable which would
 
 ## Previous and related work
 
+* [mypyc](https://mypyc.readthedocs.io/en/latest/)
+* [py2many](https://github.com/py2many/py2many)
+
 * [Pyxie compiler](https://sparkslabs.com/pyxie/) by Michael Sparks ([Previous iteration here](https://github.com/sparkslabs/microbit-prototype/tree/master/compiler))
 * [SWIG](https://www.swig.org/)
 * [Python `ast` module](https://docs.python.org/3/library/ast.html)
